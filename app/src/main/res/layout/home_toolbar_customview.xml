@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_toolbar_rg"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="horizontal">
+
+
+
+        <com.sweetjelly.wink.widget.FontRadioButton
+            android:id="@+id/rb_nearby_toolbar"
+            android:layout_width="101dp"
+            android:layout_height="match_parent"
+            android:text="history"
+            android:button="@null"
+            android:checked="true"
+            android:clickable="true"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@drawable/selector_home_tab_text_color"
+            android:drawableBottom="@drawable/selector_toolbar_bt_bottom_line"
+            />
+
+        <com.sweetjelly.wink.widget.FontRadioButton
+            android:id="@+id/rb_popular_toolbar"
+            android:layout_width="101dp"
+            android:layout_height="match_parent"
+            android:text="favorite"
+            android:button="@null"
+            android:gravity="center"
+            android:clickable="true"
+            android:textSize="16sp"
+            android:textColor="@drawable/selector_home_tab_text_color"
+            android:drawableBottom="@drawable/selector_toolbar_bt_bottom_line"/>
+
+
+
+</RadioGroup>

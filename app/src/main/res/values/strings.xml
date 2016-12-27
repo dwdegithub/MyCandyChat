@@ -1,0 +1,17 @@
+<resources>
+    <string name="feedback_email">dwandroid@sina.com</string>
+    <string name="feedback_message">Add your questions, comments, feedbacks, suggestions or ideas about Wink ;-)\r\n\r\n*** DO NOT delete please ***\r\n \r\n USER INFORMATION:\r\n User ID:%1$s\r\n Laction: %2$s\r\n APP Version: %3$s\r\n Android Version: %4$s\r\n \r\n *** DO NOT delete please ***\r\n</string>
+
+    <string name="app_name">CandyChat</string>
+    <string name="term_of_use">Terms of use</string>
+    <string name="term_of_use_content_1">1.You should be an adult and at least 18 years old</string>
+    <string name="term_of_use_content_2">2.You should acknowledge that WINK allows other user to see your relative location</string>
+    <string name="term_of_use_content_3">3.You should never post any adult or sexual photos and any profane or foul language when you use our service</string>
+    <string name="term_of_use_content_4">4.You have reviewed the Terms of Service and acknowledge that if you violate any of these terms, we’ll ban your account immediately.</string>
+    <string name="accept">Accept</string>
+    <string name="review">Review</string>
+
+    <string name="period_push_string">Find new people around you. Please check it out.</string>
+    <string name="explore">Explore</string>
+
+</resources>

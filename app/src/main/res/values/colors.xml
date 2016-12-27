@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="activity_background">#181818</color>
+    <color name="setting_fragment_item_pressed_color">#af000000</color>
+    <color name="setting_fragment_item_normal_color">@color/activity_background</color>
+
+    <color name="home_tab_text_color_normal">#949494</color>
+    <color name="home_tab_text_color_checked">#fa5b3a</color>
+</resources>

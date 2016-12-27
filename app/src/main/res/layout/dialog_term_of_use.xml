@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="286dp"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="14dp"
+    android:paddingLeft="14dp"
+    android:paddingRight="14dp"
+    android:paddingTop="40dp">
+
+    <com.candychat.widget.FontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/term_of_use"
+        android:textColor="#191919"
+        android:textSize="17sp" />
+
+    <com.candychat.widget.FontTextView
+        style="@style/TermOfUse_ContentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="@string/term_of_use_content_1" />
+
+    <com.candychat.widget.FontTextView
+        style="@style/TermOfUse_ContentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/term_of_use_content_2" />
+
+    <com.candychat.widget.FontTextView
+        style="@style/TermOfUse_ContentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/term_of_use_content_3" />
+
+    <com.candychat.widget.FontTextView
+        style="@style/TermOfUse_ContentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/term_of_use_content_4" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="47dp"
+        android:orientation="horizontal">
+
+        <com.candychat.widget.FontTextView
+            android:id="@+id/tv_review"
+            style="@style/TermOfUse_Button"
+            android:text="@string/review"
+            android:textColor="#818181" />
+
+        <com.candychat.widget.FontTextView
+            android:id="@+id/tv_accept"
+            style="@style/TermOfUse_Button"
+            android:text="@string/accept"
+            android:textColor="#191919" />
+    </LinearLayout>
+</LinearLayout>

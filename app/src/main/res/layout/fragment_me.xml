@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <com.candychat.widget.CircleImageView
+                android:id="@+id/circle_portrait"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher" />
+
+
+            <RelativeLayout
+                android:id="@+id/rl_target"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="29dp">
+
+                <com.candychat.widget.FontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:text="i_am_looking_for"
+                    android:textColor="#e8e8e8"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/iv_r"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:src="@mipmap/ic_launcher" />
+
+                <com.candychat.widget.FontTextView
+                    android:id="@+id/tv_target"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_toLeftOf="@id/iv_r"
+                    android:text="Hookup"
+                    android:textColor="#e7e02d"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <View
+                style="@style/divider"
+                android:layout_marginTop="14dp" />
+
+            <View
+                style="@style/divider"
+                android:layout_marginLeft="83dp"
+                android:layout_marginTop="26dp" />
+
+            <com.candychat.widget.FontTextView
+                android:id="@+id/tv_feed_back"
+                style="@style/SettingFragmentItemStyle"
+                android:drawableLeft="@mipmap/ic_launcher"
+                android:text="feedback" />
+
+            <View
+                style="@style/divider"
+                android:layout_marginLeft="83dp" />
+
+            <com.candychat.widget.FontTextView
+                android:id="@+id/tv_term_of_us"
+                style="@style/SettingFragmentItemStyle"
+                android:drawableLeft="@mipmap/ic_launcher"
+                android:text="term_of_use" />
+
+            <View
+                style="@style/divider"
+                android:layout_marginLeft="83dp" />
+
+            <com.candychat.widget.FontTextView
+                android:id="@+id/tv_rate_us"
+                style="@style/SettingFragmentItemStyle"
+                android:drawableLeft="@mipmap/ic_launcher"
+                android:text="rate_us" />
+
+            <View
+                style="@style/divider"
+                android:layout_marginLeft="83dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

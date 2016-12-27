@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <!--<include-->
+        <!--android:id="@+id/toolbar"-->
+        <!--layout="@layout/toolbar" />-->
+
+    <RadioGroup
+        android:id="@+id/rg_homebar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#222222"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_discover"
+            style="@style/HomeTabButtonStyle"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_tab_nearby"
+             />
+
+        <RadioButton
+            android:id="@+id/rb_history"
+            style="@style/HomeTabButtonStyle"
+            android:drawableTop="@drawable/selector_tab_message"
+             />
+
+        <RadioButton
+            android:id="@+id/rb_me"
+            style="@style/HomeTabButtonStyle"
+            android:drawableTop="@drawable/selector_tab_setting"
+             />
+    </RadioGroup>
+
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_unread_point"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignTop="@id/rg_homebar"-->
+        <!--android:src="@mipmap/ic_unread_point"-->
+        <!--android:visibility="invisible" />-->
+
+    <FrameLayout
+        android:id="@+id/home_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rg_homebar">
+        <!--android:layout_below="@id/toolbar">-->
+
+        <!--<android.support.v4.view.ViewPager-->
+            <!--android:id="@+id/discover_vp"-->
+            <!--android:tag="DiscoverViewPager"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+        <!--</android.support.v4.view.ViewPager>-->
+    </FrameLayout>
+
+</RelativeLayout>
